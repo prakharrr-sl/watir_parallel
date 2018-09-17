@@ -4,4 +4,4 @@ RUN gem install rspec selenium-webdriver require_all parallel_split_test sauce_w
 
 ADD . .
 
-CMD ruby par.rb
+CMD rake test_parallel
