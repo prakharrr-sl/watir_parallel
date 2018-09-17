@@ -39,4 +39,4 @@ export HOST=`you know what to do :)`
 
 # RUN TESTS IN SAUCE
 
-`rake test_sauce`
+`rake test_parallel`

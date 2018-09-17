@@ -36,5 +36,4 @@ RSpec.configure do | config |
     puts("Sauce job-name=#{test.full_description}")
     @browser.quit
   end
-
 end
